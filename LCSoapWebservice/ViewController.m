@@ -30,8 +30,8 @@
 - (IBAction)Go:(id)sender
 {
     NSString *xmlns = @"http://tmpurl/";
-    NSString *method = @"CAL001";
-    NSURL *url = [NSURL URLWithString:@"http://www.mli.com.tw/mob/calwebservice.asmx"];
+    NSString *method = @"soapMethod";
+    NSURL *url = [NSURL URLWithString:@"http://www.xxx.asmx/calwebservice.asmx"];
     NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
                             @"",@"identity",
                             @"",@"planValue",

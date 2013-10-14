@@ -33,12 +33,12 @@
  */
 @property (nonatomic, assign) NSInteger tag;
 /**
- url : soap webservice host
  xmlns : the xml namespace is you donot change the xmlns , then default is http://tmpurl/
  */
 - (id)initWithXmlns:(NSString*)xmlns soapMethod:(NSString*)method params:(NSDictionary*)params;
 /**
  start connecting to the soap webservice host
+ url : soap webservice host
  */
 - (void)startConnectingWithUrl:(NSURL*)url;
 /**
