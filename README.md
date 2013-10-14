@@ -6,6 +6,27 @@ so decide to share this solutions.
 
 It is very easy to use!
 
+how to use :
+
+step 1: copy \classes\ folder to you project
+
+step 2: import LCSoapDelegate.h
+
+step 3: implement protocol
+
+step 4: create your soap parameters ex: 
+  NSString *xmlns = @"http://tmpurl/";
+  NSString *method = @"SoapMethod"; 
+  NSURL *url = [NSURL URLWithString:http://www.tmp.com.asmx]; 
+  NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys: 
+        @"",@"identity", 
+        @"",@"planValue", 
+        @"",@"customerValue", 
+        nil]; 
+  LCSoapDelegate *soap = [[LCSoapDelegate alloc] initWithXmlns:xmlns soapMethod:method params:params]; 
+  [soap setDelegate:self]; 
+  [soap setTag:0]; 
+  [soap startConnectingWithUrl:url];
 
 ==============================================================
 The MIT License (MIT)
