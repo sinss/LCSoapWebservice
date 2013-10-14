@@ -27,7 +27,9 @@ step 4: create your soap parameters ex:
   [soap setDelegate:self]; 
   [soap setTag:0]; 
   [soap startConnectingWithUrl:url];
-
+==============================================================
+support : ios6 above
+requried : ARC
 ==============================================================
 The MIT License (MIT)
 

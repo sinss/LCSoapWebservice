@@ -23,6 +23,7 @@
 		0FA48D60180C1BE9003763A7 /* LCSoapWebserviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA48D5F180C1BE9003763A7 /* LCSoapWebserviceTests.m */; };
 		0FA48D6C180C1D07003763A7 /* LCSoapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA48D6B180C1D07003763A7 /* LCSoapDelegate.m */; };
 		0FA48D6D180C1D07003763A7 /* LCSoapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA48D6B180C1D07003763A7 /* LCSoapDelegate.m */; };
+		0FA48D6F180C328D003763A7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FA48D6E180C328D003763A7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		0FA48D5F180C1BE9003763A7 /* LCSoapWebserviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSoapWebserviceTests.m; sourceTree = "<group>"; };
 		0FA48D6A180C1D07003763A7 /* LCSoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSoapDelegate.h; sourceTree = "<group>"; };
 		0FA48D6B180C1D07003763A7 /* LCSoapDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSoapDelegate.m; sourceTree = "<group>"; };
+		0FA48D6E180C328D003763A7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		0FA48D28180C1BE9003763A7 = {
 			isa = PBXGroup;
 			children = (
+				0FA48D6E180C328D003763A7 /* README.md */,
 				0FA48D3A180C1BE9003763A7 /* LCSoapWebservice */,
 				0FA48D59180C1BE9003763A7 /* LCSoapWebserviceTests */,
 				0FA48D33180C1BE9003763A7 /* Frameworks */,
@@ -244,6 +247,7 @@
 			files = (
 				0FA48D4D180C1BE9003763A7 /* Images.xcassets in Resources */,
 				0FA48D3F180C1BE9003763A7 /* InfoPlist.strings in Resources */,
+				0FA48D6F180C328D003763A7 /* README.md in Resources */,
 				0FA48D48180C1BE9003763A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +480,7 @@
 				0FA48D65180C1BE9003763A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FA48D66180C1BE9003763A7 /* Build configuration list for PBXNativeTarget "LCSoapWebserviceTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +489,7 @@
 				0FA48D68180C1BE9003763A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
