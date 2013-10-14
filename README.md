@@ -7,7 +7,7 @@ so decide to share this solutions.
 It is very easy to use!
 
 
-
+==============================================================
 The MIT License (MIT)
 
 Copyright (c) [2013] [Leo Chang]
