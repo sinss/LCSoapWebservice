@@ -1,6 +1,6 @@
 LCSoapWebservice
 ==============================================================
-I found soap webservice for iOS is rarely to discuss ,
+I think soap webservice for iOS is rarely to discuss ,
 
 so decide to share this solutions.
 
